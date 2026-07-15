@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "ury.ley-sociedades-comerciales-16060"
+           :title "Ley N.º 16.060 (Ley de Sociedades Comerciales)"
+           :jurisdiction "URY"
+           :kind :law
+           :law-number "Ley N.º 16.060"
+           :url "https://www.impo.com.uy/bases/leyes/16060-1989"
+           :url-provenance :official-impo-com-uy
+           :enacted-date "1989-09-04"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "ury.ley-proteccion-datos-personales-18331"
+           :title "Ley N.º 18.331 (Ley de Protección de Datos Personales)"
+           :jurisdiction "URY"
+           :kind :law
+           :law-number "Ley N.º 18.331"
+           :url "https://www.impo.com.uy/bases/leyes/18331-2008"
+           :url-provenance :official-impo-com-uy
+           :enacted-date "2008-08-11"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "ury.ley-ocho-horas-5350"
+           :title "Ley N.º 5.350 (Ley de las Ocho Horas)"
+           :jurisdiction "URY"
+           :kind :law
+           :law-number "Ley N.º 5.350"
+           :url "https://www.impo.com.uy/bases/leyes/5350-1915"
+           :url-provenance :official-impo-com-uy
+           :enacted-date "1915-11-17"
+           :retrieved-at "2026-07-16"
+           :topic [:labor :employment]}]
